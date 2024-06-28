@@ -5,7 +5,7 @@ import hero from "../../styles/hero.css";
 export const Hero = () => {
   return (
     <div className="banner">
-      <Container>
+      <Container fluid>
         <div className="banner-content">
           <h1>Welcome to Story World Adventures</h1>
           <p>Explore, Learn and Imagine in Every Chapter</p>
