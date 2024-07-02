@@ -9,8 +9,8 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Hero } from "./component/hero";
-import { Banner } from "./component/banner";
-import { FeaturedBooks } from "./component/featuredBooks";
+// import { Banner } from "./component/banner";
+import { FeaturedStories } from "./component/featuredStories";
 import { Footer } from "./component/footer";
 
 //create your first component
@@ -25,8 +25,8 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Hero />
-          <Banner />
-          <FeaturedBooks />
+          {/* <Banner /> */}
+          <FeaturedStories />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/demo" element={<Demo />} />
