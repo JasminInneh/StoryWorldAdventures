@@ -1,11 +1,11 @@
-.banner {
+/* .banner {
   background: linear-gradient(
     45deg,
     #ff8a65,
     #ffd54f,
     #ffd54f,
     #4fc3f7
-  ); /* Example gradient colors */
+  ); 
   background-size: cover;
   background-position: center;
   color: white;
@@ -28,18 +28,25 @@
     #ffd54f,
     #4fc3f7
   ); /* Same gradient as .banner */
-}
-
-.banner-content {
-  position: relative;
-  z-index: 1;
+/* } */
+.banner {
+  background: url("https://i.ibb.co/myLJDGN/banner5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px;
 }
 
 .banner h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: #002b5b;
 }
 
 .banner p {
+  color: rgb(245, 122, 216);
   font-size: 1.5rem;
 }
