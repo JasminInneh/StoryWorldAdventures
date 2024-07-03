@@ -11,6 +11,7 @@ import { Navbar } from "./component/navbar";
 import { Hero } from "./component/hero";
 // import { Banner } from "./component/banner";
 import { FeaturedStories } from "./component/featuredStories";
+import { BenefitsOfReading } from "./component/benefitsOfReading";
 import { Footer } from "./component/footer";
 
 //create your first component
@@ -27,6 +28,7 @@ const Layout = () => {
           <Hero />
           {/* <Banner /> */}
           <FeaturedStories />
+          <BenefitsOfReading />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/demo" element={<Demo />} />
