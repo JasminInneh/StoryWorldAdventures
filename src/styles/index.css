@@ -45,7 +45,7 @@
   }
   
   /* Buttons */
-  .btn-primary {
+  /* .btn-primary {
     background-color: var(--button-primary);
     border-color: var(--button-primary);
   }
@@ -68,7 +68,7 @@
     background-color: var(--button-hover);
     border-color: var(--button-hover);
   }
-  
+   */
   /* Footer */
   footer {
     background-color: var(--background-secondary);
