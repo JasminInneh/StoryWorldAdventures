@@ -56,3 +56,11 @@
 .banner .btn-warning {
   color: #ffffff;
 }
+
+.banner h1 {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-size: 4rem;
+}
+.banner p {
+  font-family: "Comic Neue", cursive;
+}
