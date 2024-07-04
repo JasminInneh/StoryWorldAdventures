@@ -29,7 +29,7 @@
   background-color: #002b5b;
   border: none;
 }
-.benefits-section h2, h5 {
+.benefits-section h2, .benefits-section h5 {
   font-family: "Bubblegum Sans", sans-serif;
   font-size: 2.5rem;
 }

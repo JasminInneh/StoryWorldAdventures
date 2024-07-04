@@ -1,0 +1,9 @@
+.footer {
+    background-color: #002b5b;
+}
+#footer h5, #footer p {
+    color: #ffffffff;
+}
+.footer-icons {
+    font-size: 20px;
+}

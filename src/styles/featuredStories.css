@@ -1,6 +1,7 @@
 .featured {
   text-align: center;
-  background: linear-gradient(135deg, #ffb6c1, #ffd700, #add8e6);
+  background-color: #cfe8fc;
+  /* background: linear-gradient(135deg, #ffb6c1, #ffd700, #add8e6); */
 }
 .featured h2 {
   font-family: "Bubblegum Sans", sans-serif;

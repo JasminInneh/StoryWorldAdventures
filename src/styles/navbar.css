@@ -22,3 +22,9 @@
 .navbar-brand {
   color: white !important;
 }
+#nav-dropdown {
+  color: #ffffff;
+}
+.navbar i {
+  font-size: 20px;
+}
