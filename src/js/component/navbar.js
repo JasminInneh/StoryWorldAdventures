@@ -1,8 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
-import navbar from "../../styles/navbar.css"
-
+import navbar from "../../styles/navbar.css";
 
 export const Navbar = () => {
   const { store, actions } = useContext(Context);
@@ -47,11 +46,12 @@ export const Navbar = () => {
       <div className="dropdown">
         <button
           className="btn btn-warning dropdown-toggle"
+          id="nav-dropdown"
           type="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          Favorites
+          <i class="fas fa-heart"></i>
         </button>
         <ul className="dropdown-menu dropdown-menu-end">
           {store.favorites?.map((favorites, index) => (

@@ -8,7 +8,9 @@ export const Hero = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 d-flex flex-column align-items-start">
-            <h1>Embark on a Journey of Imagination</h1>
+            <h1>Embark on a Journey <br />
+            of Imagination
+            </h1>
             <p>
               Discover enchanting tales and adventures in our digital library
               designed for young readers.
