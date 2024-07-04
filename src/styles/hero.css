@@ -50,3 +50,6 @@
   color: rgb(245, 122, 216);
   font-size: 1.5rem;
 }
+.banner .btn-success {
+  background-color: #002b5b;
+}

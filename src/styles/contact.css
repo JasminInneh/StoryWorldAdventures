@@ -1,0 +1,24 @@
+.contact {
+  background-color: #ffffff;
+}
+.contact .input-group {
+  margin-bottom: 25px;
+}
+.contact i {
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 10%;
+  color: navy;
+}
+.contact .btn {
+  border-radius: 10%;
+  width: 50%;
+  font-size: 15px;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+}
+.contact h2 {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-size: 2.5rem;
+}

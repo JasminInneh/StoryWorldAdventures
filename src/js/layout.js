@@ -13,6 +13,7 @@ import { Hero } from "./component/hero";
 import { FeaturedStories } from "./component/featuredStories";
 import { BenefitsOfReading } from "./component/benefitsOfReading";
 import { Library } from "./component/library";
+import { Contact } from "./component/contact";
 import { Footer } from "./component/footer";
 
 //create your first component
@@ -31,13 +32,14 @@ const Layout = () => {
           <FeaturedStories />
           <Library />
           <BenefitsOfReading />
+          <Contact />
+          <Footer />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/demo" element={<Demo />} />
             <Route path="/single/:theid" element={<Single />} />
             <Route path="*" element={<h1>Not found!</h1>} />
           </Routes>
-          <Footer />
         </ScrollToTop>
       </BrowserRouter>
     </div>

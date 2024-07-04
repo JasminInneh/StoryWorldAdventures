@@ -3,7 +3,18 @@
     position: relative;
     padding-bottom: 100px; /* space for the wave */
   }
-  
+  .library h2 {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-size: 2.5rem;
+  }
+  .library h4 {
+    font-family: "Comic Neue", cursive;
+    font-size: 1.5rem;
+  }
+  .author {
+    font-style: italic;
+    color: #002b5b
+  }
   .library-header {
     font-size: 2rem;
   }
