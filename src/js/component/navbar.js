@@ -5,12 +5,13 @@ import navbar from "../../styles/navbar.css";
 
 export const Navbar = () => {
   const { store, actions } = useContext(Context);
+
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand brand" href="#">
+        <Link className="navbar-brand brand" to="/">
           StoryWorld Adventures
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -30,13 +31,13 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#books">
+              <Link className="nav-link" to="/#books">
                 Books
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#about">
-                About
+              <Link className="nav-link" to="/about">
+                About 
               </Link>
             </li>
           </ul>
@@ -51,13 +52,13 @@ export const Navbar = () => {
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          <i class="fas fa-heart"></i>
+          <i className="fas fa-heart"></i>
         </button>
         <ul className="dropdown-menu dropdown-menu-end">
-          {store.favorites?.map((favorites, index) => (
+          {store.favorites?.map((favorite, index) => (
             <li key={index}>
-              {favorites.name}
-              <button onClick={() => actions.removeFavorites(favorites)}>
+              {favorite.name}
+              <button onClick={() => actions.removeFavorites(favorite)}>
                 X
               </button>
             </li>
