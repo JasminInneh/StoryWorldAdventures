@@ -1,0 +1,66 @@
+.aboutUs {
+  padding: 60px 0;
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-size: 2.5rem;
+}
+
+.section {
+  margin-bottom: 60px;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e0e0e0, #ffffff);
+  border-radius: 15px;
+}
+
+.section:nth-child(even) {
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #e0e0e0
+  ); /* Alternate gradient */
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.iconBlock {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2.5rem;
+}
+
+.contactSection {
+  text-align: center;
+}
+
+.contactBlock ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactBlock li {
+  margin-bottom: 10px;
+}
+
+.contactBlock a {
+  color: #002b5b;
+  text-decoration: none;
+  font-weight: bold;
+}
+.customWidth {
+  width: 65%;
+}
+.founderCustomImage {
+  border-radius: 50%;
+  width: 70%;
+  max-width: 100%;
+
+}
