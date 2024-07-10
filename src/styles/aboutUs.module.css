@@ -6,22 +6,18 @@
   text-align: center;
   margin-bottom: 40px;
   font-family: "Bubblegum Sans", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .section {
   margin-bottom: 60px;
   padding: 40px 20px;
-  background: linear-gradient(to right, #e0e0e0, #ffffff);
+  background: linear-gradient(to right, #d6e9ff, #eaf4ff);
   border-radius: 15px;
 }
 
 .section:nth-child(even) {
-  background: linear-gradient(
-    to right,
-    #ffffff,
-    #e0e0e0
-  ); /* Alternate gradient */
+  background: linear-gradient(to right, #eaf4ff, #d6e9ff);
 }
 
 .image {
@@ -55,12 +51,13 @@
   text-decoration: none;
   font-weight: bold;
 }
+
 .customWidth {
   width: 65%;
 }
+
 .founderCustomImage {
   border-radius: 50%;
   width: 70%;
   max-width: 100%;
-
 }
