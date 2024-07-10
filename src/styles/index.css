@@ -11,10 +11,10 @@
   }
   
   /* Global Styles */
-  body {
+  /* body {
     background-color: var(--background-main);
     color: var(--primary-text);
-  }
+  } */
   
   h1, h2, h3, h4, h5, h6 {
     color: var(--primary-text);
