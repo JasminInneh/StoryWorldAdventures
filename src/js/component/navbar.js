@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
-import navbar from "../../styles/navbar.css";
+import "../../styles/navbar.css";
 
 export const Navbar = () => {
   const { store, actions } = useContext(Context);
@@ -31,13 +31,13 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#books">
+              <Link className="nav-link" to="/books">
                 Books
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">
-                About 
+                About
               </Link>
             </li>
           </ul>
