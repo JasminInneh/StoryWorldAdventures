@@ -123,8 +123,8 @@ export const AboutUs = () => {
               </div>
               <div className="col-md-6 d-flex justify-content-center align-items-center">
                 <div className={styles.iconBlock}>
-                  <i className="fas fa-book"></i>
-                  <i className="fas fa-puzzle-piece"></i>
+                  <img src="https://media2.giphy.com/media/mAZf4H4Pi0wwlj3ZAw/giphy.gif?cid=6c09b952jwvviocdz47bz1z55mabi4qxtug5sadyo26v5uu0&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" />
+                 
                 </div>
               </div>
             </div>
