@@ -3,7 +3,7 @@ import React, { useContext, useState } from 'react';
 import { Context } from '../store/appContext';
 import { Navbar } from "../component/navbar";
 import { Footer } from "../component/footer";
-import PageBanner from '../component/PageBanner'; // Import as default
+import LibraryBanner from '../component/libraryBanner'; // Import as default
 
 const BooksList = () => {
   const { store, actions } = useContext(Context);
@@ -17,7 +17,7 @@ const BooksList = () => {
   return (
     <>
       <Navbar />
-      <PageBanner text="Discover Your Next Adventure!" /> {/* Pass text prop to PageBanner */}
+      <LibraryBanner />
       <div className="container mt-4">
         <form className="mb-3" onSubmit={handleSearch}>
           <div className="input-group">
