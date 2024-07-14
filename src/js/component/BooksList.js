@@ -4,6 +4,7 @@ import { Context } from '../store/appContext';
 import { Navbar } from "../component/navbar";
 import { Footer } from "../component/footer";
 import LibraryBanner from '../component/libraryBanner'; // Import as default
+import BookDetails from '../component/BookDetails'; // Import as default
 
 const BooksList = () => {
   const { store, actions } = useContext(Context);
@@ -33,13 +34,18 @@ const BooksList = () => {
             </button>
           </div>
         </form>
-        <ul className="list-group">
+        <div className="row">
           {store.books.map((book, index) => (
-            <li key={index} className="list-group-item">
-              {book.title}
-            </li>
+            <div key={index} className="col-md-6">
+              <BookDetails
+                title={book.title}
+                author={book.author}
+                cover={book.cover}
+                description={book.description}
+              />
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
       <Footer />
     </>
@@ -47,5 +53,3 @@ const BooksList = () => {
 };
 
 export default BooksList;
-
-
