@@ -7,7 +7,7 @@ export const FeaturedStories = () => {
     <div className="featured container-fluid p-5">
       <h2>Explore Our Features</h2>
       <div className="row mt-5">
-        <div class="col-md-4 d-flex justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center hover-grow">
           <div class="card" style={{ width: "18rem;" }}>
             <img
               class="fixed-size-img"
@@ -17,7 +17,7 @@ export const FeaturedStories = () => {
             <div class="card-body">
               <h5 class="card-title">Word Bank</h5>
               <p class="card-text">
-                AIn Story World Adventures, kids can save new words to their
+                In Story World Adventures, kids can save new words to their
                 "Word Bank" for later review. This helps them learn and remember
                 words they discover while reading, making their adventure more
                 fun and educational.
@@ -28,7 +28,7 @@ export const FeaturedStories = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center hover-grow">
           <div class="card" style={{ width: "18rem;" }}>
             <img
               class="fixed-size-img"
@@ -49,7 +49,7 @@ export const FeaturedStories = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center hover-grow">
           <div class="card" style={{ width: "18rem;" }}>
             <img
               class="fixed-size-img"
