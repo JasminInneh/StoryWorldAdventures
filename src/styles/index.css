@@ -44,31 +44,8 @@
     border-radius: 10px;
   }
   
-  /* Buttons */
-  /* .btn-primary {
-    background-color: var(--button-primary);
-    border-color: var(--button-primary);
-  }
   
-  .btn-primary:hover,
-  .btn-primary:focus,
-  .btn-primary:active {
-    background-color: var(--button-hover);
-    border-color: var(--button-hover);
-  }
   
-  .btn-secondary {
-    background-color: var(--button-secondary);
-    border-color: var(--button-secondary);
-  }
-  
-  .btn-secondary:hover,
-  .btn-secondary:focus,
-  .btn-secondary:active {
-    background-color: var(--button-hover);
-    border-color: var(--button-hover);
-  }
-   */
   /* Footer */
   footer {
     background-color: var(--background-secondary);
