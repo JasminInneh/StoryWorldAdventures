@@ -43,27 +43,32 @@ export const Navbar = () => {
           </ul>
         </div>
       </div>
-
-      <div className="dropdown">
-        <button
-          className="btn btn-warning dropdown-toggle"
-          id="nav-dropdown"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <i className="fas fa-heart"></i>
-        </button>
-        <ul className="dropdown-menu dropdown-menu-end">
-          {store.favorites?.map((favorite, index) => (
-            <li key={index}>
-              {favorite.name}
-              <button onClick={() => actions.removeFavorites(favorite)}>
-                X
-              </button>
-            </li>
-          ))}
+      <div className="right-nav-links d-flex">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">SignUp</li>
+          <li className="nav-item">Login</li>
         </ul>
+        <div className="dropdown">
+          <button
+            className="btn btn-warning dropdown-toggle"
+            id="nav-dropdown"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i className="fas fa-heart"></i>
+          </button>
+          <ul className="dropdown-menu dropdown-menu-end">
+            {store.favorites?.map((favorite, index) => (
+              <li key={index}>
+                {favorite.name}
+                <button onClick={() => actions.removeFavorites(favorite)}>
+                  X
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </nav>
   );

@@ -4,8 +4,21 @@ import "../../styles/library.css";
 export const Library = () => {
   return (
     <div className="library container-fluid">
+      <div className="library-wave-one">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="none"
+        >
+          <path
+            fill="#cfe8fc"
+            fill-opacity="1"
+            d="M0,160L80,138.7C160,117,320,75,480,80C640,85,800,139,960,144C1120,149,1280,107,1360,85.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
       <div className="row p-5">
-        <h2 className="library-header text-center mb-4">Library</h2>
+        <h2 className="library-header text-center mb-4 mt-5">Library</h2>
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <img
             src="https://i.ibb.co/nBwF9qg/sammys-space-adventure.jpg"
@@ -42,7 +55,7 @@ export const Library = () => {
             d="M0,128L40,117.3C80,107,160,85,240,85.3C320,85,400,107,480,122.7C560,139,640,149,720,160C800,171,880,181,960,160C1040,139,1120,85,1200,74.7C1280,64,1360,96,1400,112L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
           ></path>
           <path
-            fill="#fffd8d" /* Yellow */
+            fill="#cfe8fc" /* Yellow */
             d="M0,224L40,218.7C80,213,160,203,240,176C320,149,400,107,480,106.7C560,107,640,149,720,160C800,171,880,149,960,144C1040,139,1120,149,1200,144C1280,139,1360,117,1400,106.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
           ></path>
         </svg>
