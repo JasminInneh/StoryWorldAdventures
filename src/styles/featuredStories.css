@@ -32,7 +32,7 @@
 }
 .featured-wave {
   position: absolute;
-  top: 0; /* Ensure wave starts from the top edge */
+  top: 0; 
   left: 0;
   width: 100%;
   overflow: hidden;
