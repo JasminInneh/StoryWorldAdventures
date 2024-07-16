@@ -1,22 +1,22 @@
 .navbar {
-  background-color: #002b5b; /* Set background color */
-  padding: 10px 20px; /* Add padding */
+  background-color: #002b5b; 
+  padding: 10px 20px; 
 }
 
 .brand {
-  color: #ffffff; /* Set text color */
-  font-size: 1.5rem; /* Adjust font size */
-  font-weight: bold; /* Make text bold if needed */
+  color: #ffffff; 
+  font-size: 1.5rem; 
+  font-weight: bold; 
 }
 
 .nav-link {
-  color: #ffffff !important; /* Set text color */
-  font-size: 1rem; /* Adjust font size */
-  margin-right: 10px; /* Add right margin between links */
+  color: #ffffff !important; 
+  font-size: 1rem; 
+  margin-right: 15px; 
 }
 
 .nav-link:hover {
-  color: #ff6f61; /* Change text color on hover */
+  color: #ff6f61;
 }
 
 .navbar-brand {
@@ -27,4 +27,12 @@
 }
 .navbar i {
   font-size: 20px;
+}
+.right-nav-links li {
+  color: #ffffff !important;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+.right-nav-links:hover {
+  color: #ff6f61;
 }
