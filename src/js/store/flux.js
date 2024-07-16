@@ -1,4 +1,4 @@
-import openLibraryService from '../services/openLibraryService';
+import openLibraryService from "../services/openLibraryService";
 
 const getState = ({ getStore, getActions, setStore }) => {
   return {
@@ -7,16 +7,16 @@ const getState = ({ getStore, getActions, setStore }) => {
         {
           title: "FIRST",
           background: "white",
-          initial: "white"
+          initial: "white",
         },
         {
           title: "SECOND",
           background: "white",
-          initial: "white"
-        }
+          initial: "white",
+        },
       ],
       books: [],
-      bookDetails: null
+      bookDetails: null,
     },
     actions: {
       exampleFunction: () => {
@@ -40,7 +40,7 @@ const getState = ({ getStore, getActions, setStore }) => {
           const books = await openLibraryService.searchBooks(query);
           setStore({ books: books.docs });
         } catch (error) {
-          console.error('Error fetching books', error);
+          console.error("Error fetching books", error);
         }
       },
       fetchBookDetails: async (bookId) => {
@@ -48,10 +48,10 @@ const getState = ({ getStore, getActions, setStore }) => {
           const bookDetails = await openLibraryService.getBookDetails(bookId);
           setStore({ bookDetails });
         } catch (error) {
-          console.error('Error fetching book details', error);
+          console.error("Error fetching book details", error);
         }
-      }
-    }
+      },
+    },
   };
 };
 
