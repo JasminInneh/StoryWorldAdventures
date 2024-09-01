@@ -1,25 +1,27 @@
 /* hero.module.css */
-
 .banner {
-  background: url("https://i.ibb.co/myLJDGN/banner5.jpg");
-  background-size: cover;
+  background: url("/src/img/StoryWorldHeroImage.avif");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right center;
   height: 100vh;
   display: flex;
   align-items: center;
   padding: 50px;
+  color: #fff; 
 }
 
 .banner h1 {
-  font-size: 3rem;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-size: 5rem;
   margin-bottom: 20px;
   color: #002b5b;
 }
 
 .banner p {
   color: rgb(245, 122, 216);
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-family: "Comic Neue", cursive;
 }
 
 .banner .btn-success {
@@ -30,11 +32,3 @@
   color: #ffffff;
 }
 
-.banner h1 {
-  font-family: "Bubblegum Sans", sans-serif;
-  font-size: 4rem;
-}
-
-.banner p {
-  font-family: "Comic Neue", cursive;
-}

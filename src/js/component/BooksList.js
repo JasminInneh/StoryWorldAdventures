@@ -76,7 +76,7 @@ const BooksList = () => {
         <div className="row genre-section m-5">
           <h2 className="text-center mb-3">Genres</h2>
           <div className="col">
-            <div class="card" style={{ width: "18rem;" }}>
+            <div class="card" style={{ width: "18rem" }}>
               <img
                 src="https://media.istockphoto.com/id/1364557568/vector/cartoon-beautiful-unicorn-head-is-on-the-cloud-with-beautiful-flowers.jpg?s=612x612&w=0&k=20&c=SbeqG1k6Y1swx_GAmKYbz7mx9DnBJYH1eNDLi4ZCN0Y="
                 className="card-img-top img-fluid fixed-size-img"
@@ -93,7 +93,7 @@ const BooksList = () => {
             </div>
           </div>
           <div className="col">
-            <div class="card" style={{ width: "18rem;" }}>
+            <div class="card" style={{ width: "18rem" }}>
               <img
                 src="https://img.freepik.com/premium-photo/children-s-book-cover-space-adventure_909774-201.jpg"
                 class="card-img-top img-fluid fixed-size-img"
@@ -110,7 +110,7 @@ const BooksList = () => {
             </div>
           </div>
           <div className="col">
-            <div class="card" style={{ width: "18rem;" }}>
+            <div class="card" style={{ width: "18rem" }}>
               <img
                 src="https://www.fairy-tales.eu/assets/Files/Images/0.jpg"
                 class="card-img-top img-fluid fixed-size-img"
@@ -129,7 +129,7 @@ const BooksList = () => {
         </div>
         <div className="row genre-section me-5 ms-5 mb-5">
           <div className="col">
-            <div class="card" style={{ width: "18rem;" }}>
+            <div class="card" style={{ width: "18rem" }}>
               <img
                 src="https://st2.depositphotos.com/2945617/9575/v/450/depositphotos_95756690-stock-illustration-cute-baby-elephant-cartoon-sitting.jpg"
                 className="card-img-top img-fluid fixed-size-img"
@@ -146,7 +146,7 @@ const BooksList = () => {
             </div>
           </div>
           <div className="col">
-            <div class="card" style={{ width: "18rem;" }}>
+            <div class="card" style={{ width: "18rem" }}>
               <img
                 src="https://images.playground.com/e9b1ca68021c487bb662989aa7e10fbc.jpeg"
                 class="card-img-top img-fluid fixed-size-img"
@@ -163,7 +163,7 @@ const BooksList = () => {
             </div>
           </div>
           <div className="col">
-            <div class="card" style={{ width: "18rem;" }}>
+            <div class="card" style={{ width: "18rem" }}>
               <img
                 src="https://cdn.theatlantic.com/thumbor/jR9r4oiyzd-TU272-hcuxcqSkI8=/0x0:2000x1125/960x540/media/img/mt/2024/02/graphic_novels/original.jpg"
                 class="card-img-top img-fluid fixed-size-img"

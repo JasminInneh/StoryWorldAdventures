@@ -16,7 +16,31 @@
   object-fit: cover;
   border-radius: 10px;
 }
+.card-wrapper {
+  background-color: #f39c12; /* Vibrant background color */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px; /* Optional: to round the corners */
+}
 
+.card {
+  width: 18rem;
+  height: 18rem; /* Ensures the card is square */
+  overflow: hidden; /* Ensures the content doesn't overflow */
+}
+
+.card-img-top {
+  height: 50%; /* Adjust the height of the image */
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.card-body {
+  height: 50%; /* Ensures the text takes up the remaining space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .featured .btn-success {
   background-color: #002b5b;
 }
